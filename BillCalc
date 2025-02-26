@@ -6,5 +6,5 @@ tipAmount = (tipPercentage / 100) * billAmount;
 totalBill = billAmount * tipAmount;
 perPerson = totalBill / numPeople;
 console.log("Bill Calculator");
-console.log(totalBill);
-console.log(perPerson);
+console.log('Total (including tip) ${totalBill}');
+console.log('Each person pays: ${perPerson}');
