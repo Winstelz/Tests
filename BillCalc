@@ -3,7 +3,7 @@ let tipPercentage = parseFloat(inp[1]);
 let numPeople = parseFloat(inp[2]);
 
 tipAmount = (tipPercentage / 100) * billAmount;
-totalBill = billAmount * tipAmount;
+totalBill = billAmount + tipAmount;
 perPerson = totalBill / numPeople;
 console.log("Bill Calculator");
 console.log('Total (including tip) ${totalBill}');
